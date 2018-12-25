@@ -1,0 +1,14 @@
+---
+buildanddeployunit:
+- name: sampleName
+  ucdAppName: sampleName
+  ucdComponentName: sampleName
+  ucdProcessName: sampleName
+  ucdEnvName: sampleName
+  
+  sonarLanguageType: java
+  sonarSourceEncoding: UTF-8
+  sonarBranch: ST
+  sonarSourcePath: 
+  sonarCommand: 
+  
