@@ -11,11 +11,14 @@ spring:
     schema: classpath:schema.sql # 指定h2数据库的建表脚本
     data: classpath:data.sql     # 指定h2数据库的数据脚本
   application: 
-    name: microservice-provider-user #注册到Eureka上的应用名称
+    name: microservice-simple-provider-user #注册到Eureka上的应用名称
   cloud:
     service-registry:
       auto-registration:
         enabled: true
+    inetutils:
+      preferred-networks: 192.168.249.66
+      #use-only-site-local-interfaces: true
 logging:                         # 配置日志级别
    level:
      root: INFO
@@ -35,8 +38,19 @@ management:
 eureka:
    client:
      serviceUrl:
-       defaultZone: http://user:password123@localhost:8761/eureka/ #http://peer2:8762/eureka/,http://peer1:8761/eureka/ 
+       defaultZone: http://localhost:8761/eureka/ #http://peer2:8762/eureka/,http://peer1:8761/eureka/ 
+     healthcheck:
+       enabled: true
    instance:
      prefer-ip-address: true #注册自己的IP到Eureka Server，若不配置或将属性设置为false，则表示注册微服务所在操作系统的hostname到Eureka Server
-     
-     
+     #ip-address: 192.168.232.34
+     status-page-url: http://${spring.cloud.client.ipAddress}:${server.port}/health
+     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+     #instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+endpoints:
+    # 启用pause端点
+    pause:
+      enabled: true
+    # 启用restart端点，之所以要启用restart端点，是因为pause端点的启用依赖restart端点的启用
+    restart:
+      enabled: true

@@ -51,9 +51,23 @@
   		<artifactId>
   			spring-cloud-starter-netflix-eureka-client
   		</artifactId>
+  		<!-- 排除Jersey依赖 -->
+  	    <exclusions>
+  	       <exclusion>
+  	        <groupId>com.sun.jersey</groupId>
+  	        <artifactId>jersey-client</artifactId>
+  	       </exclusion>
+  	       <exclusion>
+  	         <groupId>com.sun.jersey</groupId>
+  	         <artifactId>jersey-core</artifactId>
+  	       </exclusion>
+  	       <exclusion>
+  	         <groupId>com.sun.jersey.contribs</groupId>
+  	         <artifactId>jersey-apache-client4</artifactId>
+  	       </exclusion>
+  	    </exclusions>
   	</dependency>
-  </dependencies>
-  
+  </dependencies> 
   <!-- 添加spring-boot的maven插件 
   <build>
     <plugins>
