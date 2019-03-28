@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1511423180278_2" label="Train_云凡_COMP" name="Train_云凡_COMP"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1511424329108_3" label="DevOps_Train" name="DevOps_Train">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DevOps_Train_Project" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1511511222380_4" label="TEST_云凡_COMP" name="TEST_云凡_COMP">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TEST_云凡_COMP_Build" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1511315718292_0" label="窗口工作集" name="Aggregate for window 1511315718292"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1511398932733_1" label="窗口工作集" name="Aggregate for window 1511398932733"/>
+</workingSetManager>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.magnolia.clientmodel:ClientModelRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.magnolia.clientmodel="http:///com/ibm/magnolia/clientmodel.ecore">
+  <workItemEditorHistory>
+    <internalContents date="2017-11-24T16:19:13.463+0800" description="1894：考试用：创建工作项" repository="https://99.12.99.61:9445/ccm/">
+      <workItem itemId="_qEJU0NDvEeecUZFh82kYTQ"/>
+    </internalContents>
+    <internalContents date="2017-11-24T16:00:46.704+0800" description="1592：考试_P0234583" repository="https://99.12.99.61:9445/ccm/">
+      <workItem itemId="_8kFzMM6EEeeGhei3eyB7gg"/>
+    </internalContents>
+    <internalContents date="2017-11-24T14:25:39.914+0800" description="1695：T0234583_云凡80234583_开发任务_" repository="https://99.12.99.61:9445/ccm/">
+      <workItem itemId="_0kMpsNAfEeexzOPkxkrMCw"/>
+    </internalContents>
+    <internalContents date="2017-11-23T15:34:28.308+0800" description="1744：培训用：创建工作项" repository="https://99.12.99.61:9445/ccm/">
+      <workItem itemId="_PqIVMNAgEeecUZFh82kYTQ"/>
+    </internalContents>
+    <internalContents date="2017-11-23T15:26:12.859+0800" description="1541：培训_T0234583" repository="https://99.12.99.61:9445/ccm/">
+      <workItem itemId="_UIYcYM5jEee5XvSGoiUiQw"/>
+    </internalContents>
+  </workItemEditorHistory>
+  <queries/>
+  <queryViews>
+    <internalContents name="云凡_按项目编号查询含有变更集的" repository="https://99.12.99.61:9445/ccm/" uuid="_prGDENAoEeecUZFh82kYTQ" id="云凡_按项目编号查询含有变更集的">
+      <columns attribute="id" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="项目编号" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="owner" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="ProjectName" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+    </internalContents>
+    <internalContents name="缺省" repository="https://99.12.99.61:9445/ccm/" uuid="_fWhyENAfEeecUZFh82kYTQ" id="com.ibm.magnolia.workItemExplorer.">
+      <columns attribute="workItemType" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="id" sorting="2" sortOrder="1" visible="true" width="-1"/>
+      <columns attribute="internalState" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="internalPriority" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="internalSeverity" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="summary" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="owner" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="creator" sorting="0" sortOrder="0" visible="true" width="-1"/>
+    </internalContents>
+    <internalContents name="云凡_按项目编号查询含有变更集的" repository="https://99.12.99.61:9445/ccm/" uuid="_LQGgQNAoEeecUZFh82kYTQ" id="_6M3BsNAnEeecUZFh82kYTQ">
+      <columns attribute="id" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="项目编号" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="owner" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+      <columns attribute="ProjectName" sorting="0" sortOrder="-1" visible="true" width="-1"/>
+    </internalContents>
+    <internalContents name="缺省" repository="https://99.12.99.61:9445/ccm/" uuid="_4EWGYGcjEdq9dPcKjjePWA">
+      <columns attribute="workItemType" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="id" sorting="2" sortOrder="1" visible="true" width="-1"/>
+      <columns attribute="internalState" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="internalPriority" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="internalSeverity" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="summary" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="owner" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <columns attribute="creator" sorting="0" sortOrder="0" visible="true" width="-1"/>
+      <id xsi:nil="true"/>
+    </internalContents>
+  </queryViews>
+</com.ibm.magnolia.clientmodel:ClientModelRoot>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkItem_RCP_UI.models:WorkItemRCPUIModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WorkItem_RCP_UI.models="http:///WorkItem_RCP_UI/models.ecore" xmlns:process="com.ibm.team.process" xmlns:workitem="com.ibm.team.workitem">
+  <categoryHistory>
+    <internalContents repository="https://99.12.99.61:9445/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_GZRLoM2gEeeQcLsU8SyqNA">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <category xsi:type="workitem:CategoryHandle" itemId="_SslXYM2gEeeQcLsU8SyqNA"/>
+    </internalContents>
+    <internalContents repository="https://99.12.99.61:9445/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_1SnHEJEiEeeTZoRwkfomSA">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <category xsi:type="workitem:CategoryHandle" itemId="_8mTXIJEiEeeencDUC0bzHA"/>
+    </internalContents>
+    <internalContents repository="https://99.12.99.61:9445/ccm/">
+      <projectArea xsi:type="process:ProjectAreaHandle" itemId="_FuhbIM3EEeeQcLsU8SyqNA">
+        <stateId xsi:nil="true"/>
+      </projectArea>
+      <category xsi:type="workitem:CategoryHandle" itemId="_G9814NDpEeepdavE9xEZNw"/>
+    </internalContents>
+  </categoryHistory>
+</WorkItem_RCP_UI.models:WorkItemRCPUIModel>

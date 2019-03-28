@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.team.jface.workitempicker.WorkItemSelectionDialog">
+		<item value="492" key="height"/>
+		<item value="true" key="ownerFilter"/>
+		<item value="true" key="stateFilter"/>
+		<item value="607" key="width"/>
+		<item value="36" key="y"/>
+		<item value="380" key="x"/>
+	</section>
+	<section name="com.ibm.team.workitem.rcp.ui.internal.queries.QueryableAttributeSelectionDialog">
+		<item value="true" key="showCustom"/>
+		<item value="false" key="showArchived"/>
+		<item value="false" key="showLinks"/>
+		<item value="true" key="showBuiltIn"/>
+	</section>
+</section>
