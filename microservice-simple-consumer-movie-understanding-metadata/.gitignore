@@ -13,6 +13,7 @@
 .jazz5
 .metadata
 .java.orig
+.orig
  
 ### IntelliJ IDEA ###
 .idea
@@ -51,3 +52,4 @@ hs_err_pid*
 *.ear
 *.zip
 *.tar.gz
+/test.txt

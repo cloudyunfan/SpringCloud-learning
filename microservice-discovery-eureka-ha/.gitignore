@@ -49,3 +49,5 @@ hs_err_pid*
 *.ear
 *.zip
 *.tar.gz
+/.gitignore.orig
+/pom.xml.orig
