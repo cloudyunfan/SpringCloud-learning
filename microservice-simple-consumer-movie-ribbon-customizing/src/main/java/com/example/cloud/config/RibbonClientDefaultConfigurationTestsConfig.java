@@ -1,5 +1,7 @@
 package com.example.cloud.config;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.ribbon.RibbonClients;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +13,6 @@ import com.netflix.loadbalancer.ConfigurationBasedServerList;
 import com.netflix.loadbalancer.IPing;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.PingUrl;
-import com.netflix.loadbalancer.RandomRule;
 import com.netflix.loadbalancer.Server;
 import com.netflix.loadbalancer.ServerList;
 import com.netflix.loadbalancer.ServerListSubsetFilter;
@@ -27,11 +28,14 @@ public class RibbonClientDefaultConfigurationTestsConfig {
 
 @Configuration
 class DefaultRibbonConfig {
+	
+	private static final Logger Logger = LoggerFactory.getLogger(DefaultRibbonConfig.class);
 	@Autowired
 	IClientConfig config;
 	
 	@Bean
 	public IRule ribbonRule() {
+		Logger.info("just a test");
 		return new BestAvailableRule();
 	}
 	@Bean
