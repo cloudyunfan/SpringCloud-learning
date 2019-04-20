@@ -4,9 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.FilterType;
 import org.springframework.web.client.RestTemplate;
 
-@SpringBootApplication(scanBasePackages={"com.example.cloud.controller", "com.example.cloud.entity"})
+@ComponentScan(value="com.example.cloud", excludeFilters={@ComponentScan.Filter(type=FilterType.ANNOTATION, value=ExcludeFromComponentScan.class)})
+@SpringBootApplication
 public class ConsumerMovieApplication {
 	@Bean
 	@LoadBalanced

@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import com.example.cloud.ExcludeFromComponentScan;
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.BestAvailableRule;
 import com.netflix.loadbalancer.ConfigurationBasedServerList;
@@ -17,6 +18,7 @@ import com.netflix.loadbalancer.Server;
 import com.netflix.loadbalancer.ServerList;
 import com.netflix.loadbalancer.ServerListSubsetFilter;
 
+@ExcludeFromComponentScan
 @RibbonClients(defaultConfiguration = DefaultRibbonConfig.class)
 public class RibbonClientDefaultConfigurationTestsConfig {
 	public static class BazServiceList extends ConfigurationBasedServerList {
@@ -27,6 +29,7 @@ public class RibbonClientDefaultConfigurationTestsConfig {
 }
 
 @Configuration
+@ExcludeFromComponentScan
 class DefaultRibbonConfig {
 	
 	private static final Logger Logger = LoggerFactory.getLogger(DefaultRibbonConfig.class);
