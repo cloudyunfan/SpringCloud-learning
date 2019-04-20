@@ -18,7 +18,6 @@ import com.netflix.loadbalancer.Server;
 import com.netflix.loadbalancer.ServerList;
 import com.netflix.loadbalancer.ServerListSubsetFilter;
 
-@ExcludeFromComponentScan
 @RibbonClients(defaultConfiguration = DefaultRibbonConfig.class)
 public class RibbonClientDefaultConfigurationTestsConfig {
 	public static class BazServiceList extends ConfigurationBasedServerList {
