@@ -5,7 +5,8 @@ spring:
     name: microservice-simple-consumer-movie
 microservice-simple-provider-user:
   ribbon:
-    listOfServers: localhost:8000, localhost:8001
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    listOfServers: localhost:8000, localhost:8001, localhost:8002
 #饥饿加载，对于名为XXX的Ribbon Client，将在启动时就加载对应的子应用程序上下文，从而提高首次请求访问的速度
 ribbon:
   eager-load:
